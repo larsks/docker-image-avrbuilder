@@ -7,7 +7,8 @@ RUN pacman -S --noconfirm \
 	avr-gdb \
 	make \
 	darkhttpd \
-	iproute
+	iproute \
+	simavr
 
 RUN mkdir -p /usr/share/avr-docs
 COPY docs/ /usr/share/avr-docs/
